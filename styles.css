@@ -1,0 +1,134 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #3b82f6;
+  color: #ffffff;
+  margin: 0;
+}
+
+.navbar-odoo {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 1.2rem 0;
+}
+.navbar-odoo .navbar-brand {
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+.navbar-odoo .nav-link {
+  color: rgba(255, 255, 255, 0.8) !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.navbar-odoo .nav-link:hover {
+  color: #ffffff !important;
+}
+.navbar-odoo .btn-buy-now {
+  background-color: #ffffff;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.hero-container {
+  padding: 100px 0;
+}
+.hero-container .hero-title {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+.hero-container .hero-subtitle {
+  font-size: 1.3rem;
+  color: rgba(255, 255, 255, 0.8);
+  max-width: 450px;
+  margin-bottom: 2.5rem;
+}
+.hero-container .btn-get-started {
+  background-color: #ffffff;
+  color: #333;
+  padding: 16px 32px;
+  border-radius: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card-widget {
+  background-color: #ffffff;
+  color: #333;
+  border-radius: 32px;
+  padding: 40px;
+  border-bottom-right-radius: 110px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+.card-widget .credit-card {
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 100%);
+  border-radius: 20px;
+  padding: 24px;
+  color: #ffffff;
+  margin: 25px 0;
+}
+.card-widget .credit-card .card-status {
+  background-color: #10b981;
+  font-size: 0.7rem;
+  padding: 4px 12px;
+  border-radius: 20px;
+  float: right;
+  font-weight: 600;
+}
+.card-widget .credit-card .card-number {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.4rem;
+  letter-spacing: 2px;
+  margin: 20px 0;
+}
+.card-widget .credit-card .card-label {
+  font-size: 0.65rem;
+  color: rgba(255, 255, 255, 0.6);
+  text-transform: uppercase;
+}
+.card-widget .transaction-list .transaction-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #f0f0f0;
+}
+.card-widget .transaction-list .transaction-item:last-child {
+  border-bottom: none;
+}
+.card-widget .transaction-list .transaction-item .transaction-info .name {
+  font-weight: 700;
+  display: block;
+}
+.card-widget .transaction-list .transaction-item .transaction-info .details {
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+.card-widget .transaction-list .transaction-item .amount {
+  font-weight: 700;
+}
+
+.trusted-by {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.trusted-by span {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+.trusted-by .brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+  opacity: 0.9;
+}/*# sourceMappingURL=styles.css.map */
