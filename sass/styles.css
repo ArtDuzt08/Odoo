@@ -542,7 +542,7 @@ body {
 .icon-ui {
   height: 15px;
   width: -moz-fit-content !important;
-  width: fit-content !important;
+  width: 15px !important;
 }
 
 .components-card {
