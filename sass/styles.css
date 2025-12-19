@@ -993,6 +993,9 @@ body {
   .tech-col.right {
     width: 100%;
   }
+  .tech-col.left {
+    width: 100%;
+  }
   .hero-download .media-wrapper {
     max-width: 100%;
   }
