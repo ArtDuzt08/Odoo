@@ -24,7 +24,16 @@ body {
 .navbar-odoo .navbar-brand {
   font-weight: 700;
   font-size: 1.6rem;
+  width: 100px;
+  overflow: hidden;
+  display: flex;
+  justify-content: end;
 }
+
+img.logg {
+    min-width: 200px;
+}
+
 .navbar-odoo .navbar-toggler {
   border: none;
 }
@@ -35,6 +44,7 @@ body {
 .navbar-odoo .nav-link:hover {
   color: #ffffff !important;
 }
+
 .navbar-odoo .btn-buy-now {
   background-color: #ffffff;
   color: #333;
@@ -855,6 +865,13 @@ body {
   font-weight: 700;
   font-size: 1.4rem;
   letter-spacing: 1px;
+  width: 100px;
+  overflow: hidden;
+  display: flex;
+  justify-content: end;
+}
+.logg2 {
+    min-width: 200px;
 }
 .site-footer .footer-description {
   font-size: 0.9rem;
